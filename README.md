@@ -104,3 +104,4 @@ src/
 | Enterprise | £2,000/month |
 | Candidate Pro | £9.99/month |
 | Candidate Expert | £24.99/month |
+Updated April 2026
