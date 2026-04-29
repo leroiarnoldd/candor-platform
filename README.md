@@ -105,3 +105,4 @@ src/
 | Candidate Pro | £9.99/month |
 | Candidate Expert | £24.99/month |
 Updated April 2026
+candor — Platform
