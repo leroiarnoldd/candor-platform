@@ -31,7 +31,7 @@ export default function SignupPage() {
       if (signupError) throw signupError
 
       if (data.user) {
-        router.push('/dashboard')
+        router.push('/dashboard/candidate')
       }
     } catch (err: any) {
       setError(err.message || 'Something went wrong')
