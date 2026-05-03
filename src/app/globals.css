@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-black text-white;
+  }
+}
+
+@layer components {
+  .candor-label {
+    @apply text-xs font-medium text-w3 uppercase tracking-wider;
+  }
+
+  .candor-input {
+    @apply w-full rounded-xl border border-white/10 bg-s2 px-4 py-3 text-sm text-white placeholder-w5 transition-colors focus:border-white/20 focus:outline-none;
+  }
+
+  .candor-btn-primary {
+    @apply rounded-xl bg-white px-6 py-3 text-sm font-semibold text-black transition-colors hover:bg-w2 disabled:cursor-not-allowed disabled:opacity-40;
+  }
+}
